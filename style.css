@@ -3,6 +3,9 @@ body {
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+p{
+    margin: 4px;
+}
 
 .logo {
     color: #E5E7EB;
@@ -36,7 +39,6 @@ a {
     justify-content: space-between;
     padding: 20px 220px;
     padding-bottom: 120px;
-    
 }
 
 .first div , .first p{
@@ -57,10 +59,8 @@ a {
 
 }
 
-.container{
+.first-container{
     padding: 12px 12px 12px 0px;
-    flex: 1 1 auto;
-    
 }
 
 .image{
@@ -70,7 +70,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 auto;
+    flex: 0 0 auto;
 }
 
 .btn{
@@ -80,4 +80,129 @@ a {
     color: #E5E7EB;
     width: 100px;
     border-radius: 8px; 
+}
+
+.second{
+    padding: 18px;
+    background-color: #fff;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 18px;
+    gap: 48px;
+    
+}
+
+.title-information{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+    padding-bottom: 12px;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.box{
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    width: 250px;
+    height: 250px;
+}
+
+.desc{
+    width: 250px;
+    text-align: center;
+}
+
+.third-section{
+    background-color: #E5E7EB;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qoute-container{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-end;
+   gap: 18px;
+}
+.qoute{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.author{
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.fourth-section{
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta{
+    padding: 8px;
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    width: 100px;
+    border-radius: 8px; 
+}
+
+.fourth-section .container{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 12px;
+    gap: 12px;
+}
+
+h4{
+    margin: 0px;
+    margin-bottom: 4px;
+}
+
+.rectangle-container {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 6px;
+    padding: 24px 0px;
+    width: 800px;
+    gap: 10px;
+}
+
+.sub {
+    font-size: 12px;
+    color: #dadbdd;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 24px;
+}
+
+footer div{
+    color: #F9FAF8;
+    text-align: center;
 }
