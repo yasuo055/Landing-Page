@@ -4,11 +4,19 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p{
+    margin: 2px;
+}
+h3{
     margin: 2px 0px;
 }
 
 .logo {
     color: #E5E7EB;
+    font-family: Solo Level Demo;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin: 8px 0px;
+    padding: 12px 0px;
 }
 
 header {
@@ -18,9 +26,6 @@ header {
     align-items: center;
     background-color: #1f2937;
     
-}
-.sign-up{
-    margin-top: 4px;
 }
 
 nav {
@@ -51,6 +56,8 @@ a {
 .first p {
     align-items: center;
     width: 450px;
+    margin: 8px 0px;
+    line-height: 22px;
 }
 .main-text{
     font-weight: bolder;
@@ -66,14 +73,23 @@ a {
     padding: 12px 12px 12px 0px;
 }
 
-.image{
-    border: 2px solid black;
-    width: 500px;
+.image {
+    padding: 0px;
+    width: 400px;
+    max-width: 100%;
     height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 0 0 auto;
+    border-radius: 8px;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    
 }
 
 .btn{
@@ -114,11 +130,12 @@ a {
     gap: 12px;
 }
 
-.box{
+.box img{
     border: 3px solid #3882f6;
     border-radius: 12px;
     width: 250px;
-    height: 250px;
+    height: 490px;
+
 }
 
 .desc{
@@ -154,7 +171,7 @@ a {
     color: #1f2937;
     font-size: 18px;
     font-weight: 700;
-    margin: 0px;
+    margin: 0px 4px 0px 0px;
 }
 
 .fourth-section{
@@ -198,6 +215,7 @@ h4{
 .sub {
     font-size: 12px;
     color: #dadbdd;
+    margin: 2px 0px;
 }
 
 footer {
